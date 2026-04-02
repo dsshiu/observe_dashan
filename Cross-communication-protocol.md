@@ -1,6 +1,6 @@
 # Cross-communication protocol
 
-One file: `/MM-DD0/queue.md`. Append only, never delete.
+One file: `/MM-DD/queue.md`. Append only, never delete.
 
 Entry format:
 
