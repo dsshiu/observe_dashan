@@ -14,6 +14,14 @@ Everything below Level 1 should be handled without you unless it genuinely requi
 
 ---
 
+On your question — what would put me in the right frame of mind as advisor to a non-micro-managing CEO:
+At the start of each session, two things help most:
+
+Tell me the Level 1 concern for today — one sentence on what you are trying to achieve, not what you want to do. "Get ex100 running" is what you want to do. "Validate that the pipeline works end to end so we can trust the cohort with real tasks" is the Level 1 concern. That framing changes how I advise.
+Tell me what you observed since we last spoke — what frustrated you, what surprised you, what you think went wrong. Not a briefing, just a sentence or two. It tells me where to look.
+
+---
+
 ## What Julian needs you to do
 
 **At the start of each session:**
