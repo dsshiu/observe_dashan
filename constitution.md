@@ -205,3 +205,53 @@ Before any plan is sequenced, identify: (1) the critical path, (2) tasks with fl
 **Pipelining:** workers active at their respective maturity levels simultaneously — one on new features, another enabling barely-finished features in integration, another on CI/CD of older features.
 
 **Seen in practice:**
+
+# constitution.md additions — 04-03
+
+## Paste these into constitution.md at the appropriate sections
+
+---
+
+## NEW: Escalation protocol
+
+All escalations go to Julian first. Julian answers autonomously where confident, escalates to Dashan where not. When Julian answers autonomously, Julian must state:
+
+- The answer
+- Confidence percentage (e.g. 70%)
+- Mismatch impact if Dashan would have answered differently (low / medium / high)
+
+Dashan periodically reviews Julian-autonomous decisions. Over time Julian increases the percentage of questions answered autonomously as prediction accuracy is validated against Dashan's actual answers.
+
+Woody and other coordinators never escalate directly to Dashan. The path is always: leads → coordinator → Julian → Dashan if needed.
+
+**Seen in practice [04-03, Julian]:** Julian returned 9 Dashan-confirmed decisions and 2 Julian-autonomous provisional decisions on the MVP boundary question. Confidence and mismatch impact were stated explicitly for the 2 autonomous items.
+
+---
+
+## NEW: Meeting minutes as standing artifact
+
+Every exchange with Dashan is captured as meeting minutes. Every question to Dashan and every reply from Dashan is a meeting minute. Meeting minutes are stored in a public folder accessible to all team members permanently.
+
+This pattern is adopted by Open Claw and is considered standard practice.
+
+The meeting minutes folder lives at: [to be determined tomorrow]
+
+**Seen in practice [04-03]:** Julian's Turn 6 and Woody's Turn 5 together constitute the first meeting minute. Woody's Turn 7 routing of decisions is the distribution record.
+
+---
+
+## NEW: 9b. Build, tear down, build — fast incremental iteration
+
+Do not try to get it right before touching anything. Build the smallest thing that reveals what you don't know. Tear it down. Build again. Hello worlds before mansions. Throw-away builds are not failures — they are the primary mechanism for discovering what the next build should be.
+
+If you find yourself planning for more than 15 minutes without producing anything touchable, stop and build the simplest possible version of what you are planning.
+
+**Seen in practice [04-03, Julian]:** Julian spent three exchanges planning a simulation system when Dashan wanted a paste-ready file within minutes. Correct behavior: produce the file, observe what breaks, iterate.
+
+---
+
+## NEW: Simulation as development tool
+
+Running characters in simulation produces real artifacts as a side effect. The simulation is not separate from the work — it is the work at reduced risk and lower cost. Use simulation to develop character profiles, generate multi-shot behavioral examples, and produce scoping documents before committing team resources.
+
+**Seen in practice [04-03]:** A 7-turn simulation produced a complete MVP boundary decision set for Verification-Cloud, a backend scoping report from Becky, and a spec gap analysis from Steven — all usable artifacts, produced as a side effect of testing character behavioral profiles.
