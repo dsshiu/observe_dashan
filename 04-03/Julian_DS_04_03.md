@@ -125,3 +125,39 @@ Running characters in simulation produces real scoping artifacts as a side effec
 - communication.md — Dashan researching best practices
 - Whether simulation isolation can be improved or whether filesystem sharing is acceptable
 - How to extract the MVP boundary document as a standalone artifact from Woody's Turn 7
+
+# Julian_DS_04_03 — Addendum (Evening)
+
+## What was completed after the main session log
+
+### Character souls — first draft complete
+All 16 characters now have soul profiles committed to `04-03/souls.md`:
+Steven, Becky, Boris, Bridget, Bruno, Frank, Fiona, Felix, Flora, Dominic, Diego, Dana, Mario, Mia, Marco, Igor, Woody.
+
+Diversity was intentional — senior/mid/junior spread within teams, different failure modes, different working styles. First drafts, expect revision.
+
+### Architecture for tomorrow's mechanized simulation
+
+Each engineer realized as Claude Code with isolated working directory. Communication via Google Drive inbox/outbox folders per character (`04-04/{name}/inbox`, `04-04/{name}/outbox`). Radar (Cowork) routes messages via scripts. Cecil (Cowork) tags along with coaching. Dashan approves outgoing messages only — no copy-paste. Julian communicates via GitHub — Radar carries messages. 
+
+### Full work list for tomorrow
+
+1. Finalize communication topology
+2. Design Radar's role and decision logic
+3. Design Cecil's role and intervention logic
+4. Design Dashan's approval workflow
+5. Design Julian's communication path via GitHub
+6. Define folder and file conventions
+7. Write job descriptions for all characters
+8. Write job descriptions for Radar and Cecil
+9. Design cold start procedure
+10. Run a hello world end-to-end
+11. Complete remaining simulation turns (Frank, Dominic, Mario, Igor)
+12. Add constitution.md additions from today
+13. Rewrite self-communication protocol
+14. Rewrite cross-communication protocol
+
+Items 13-14 depend on items 1-3 being settled first.
+
+### Starting point tomorrow
+Item 1 — communication topology.
