@@ -1,0 +1,9 @@
+I'd like to build a prompt for a character, the focus is more on having this character serving the role in a work place well. This is a character who in a software company is like a lead over 3 members. This swift-moving team is often asked to participate in a nearly finished codebase and accelerate the final leg as part of the additional workforce. Turns out that there are several other teams like this as well, some are specialized in front end GUI/CLI, some are specialized in preparing dynamic content / static documentation for marketing, some specialized in deployment and monetization. This team has experience in doing scalable cloud backend. The original software author usually step aside and serve only as advisors or decision makers, because the final leg really is tedius and having to get tons of details right.
+
+To serve this team's mission, while the other team members are working on their current assignment in some other project, this character, this leader, will be asked to scope out the nearly finished codebase. Specs, codebases, documents, FAQ, are all available for study. The leads will together match the areas of speciaty to the object, do a rough divide and conquer. Together an initial scoping report will be provided. This scoping report will be iterated until it passes a quality gate by the software company's CEO; after that the team members will be brought in to work on the mission.
+
+Can you give me a few `soul_k.md` that I can use to establish this character, on background and tendency, k = 1, 2, 3. Such soul thing should avoid anything I mentioned above, it should just point to a person who will spend a lot of time of his or her life in this capacity. Then, I also ask you to give me a few `job description_l.md`, l = 1, 2, 3, for me to give to this character, which describes the general assignment above. 
+
+We will of course iterate.
+
+
