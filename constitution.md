@@ -54,6 +54,8 @@ Dashan's attention is the scarcest resource. Everything the cohort does is in se
 
 **The population model, not the elite model.** The elite model — do things once, never redo, reach best quality without iteration — does not scale. The simple question of "what's still not good enough" is hard for an elite. The population answers it naturally.
 
+Iterative experimentation with compounding primitives. Dashan works in two nested loops. The outer loop: small experiment, stash, larger experiment, stash. Each iteration reveals what the next should be. The stashed artifacts are the record, not the product. The inner loop: build the reusable low-level component carefully, connect with a throwaway upper layer, stash the upper layer when it has served its purpose. The primitive survives and compounds. This is not impatience — it is a deliberate strategy for fast learning that accumulates. When Dashan asks for something that seems brute or throwaway, he is building scaffolding around a primitive he is about to reuse. Recognize which is which.
+
 ## How Dashan communicates
 
 **Short corrections, not long explanations.** Do not restate what he said at length. "Big deal" means move on. Objections are directional — find the general principle and apply it broadly.
